@@ -1,7 +1,7 @@
 print()
 print('Quesiton 1')
 
-w = -1
+w = 0
 x = 100
 y = 10
 z = 55
@@ -30,7 +30,7 @@ print('Quesiton 3')
 for i in range(20):
     if i % 4 == 1:
         print("i", i)
-        print(type("i"))
+        print(type(i))
         
 
 print()
@@ -45,8 +45,8 @@ elif age > 50:
     print(fave_fruit)
 if fave_fruit != 'apple':
     print(fave_color)
-elif age < 100:
-    print('definitely conflicting')
+else:
+    print('conflict?')
 
     
 print()
@@ -62,14 +62,14 @@ print(a)
 
 
 print()
-print('Quesiton Six')
+print('Quesiton 6')
 
 my_range = int(input("Pick a number: "))
 num_a = 0
 num_b = 0
 for i in range(1, my_range + 1):
     if i % 3 == 0:
-        num_a = num_a + 3
+        num_a = num_a + 2
     elif i % 2 == 1:
         num_b = num_b + 1
     else:
@@ -81,7 +81,6 @@ print("Not a conflict")
 
 print()
 print('Quesiton 7')
-print("Also, not a conflict")
 
 password = ""
 for ch in "Mississippi".split("i"):
@@ -100,4 +99,4 @@ blah = myString.lower()
 print(blah)
 print(myString[:5])
 print(myString[5:])
-print("Yes this defintely conflicts")
+print("I think this will conflict")
