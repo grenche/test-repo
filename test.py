@@ -1,7 +1,7 @@
 print()
 print('Quesiton 1')
 
-w = 0
+w = 2
 x = 100
 y = 10
 z = 55
@@ -46,11 +46,11 @@ elif age > 50:
 if fave_fruit != 'apple':
     print(fave_color)
 else:
-    print('conflict?')
+    print('This does conflict')
 
     
 print()
-print('Quesiton 5')  
+print('Quesiton Five')  
     
 a = 3
 while a > 0:
@@ -71,7 +71,7 @@ for i in range(1, my_range + 1):
     if i % 3 == 0:
         num_a = num_a + 2
     elif i % 2 == 1:
-        num_b = num_b + 1
+        num_b = num_b + 4
     else:
         print(i)
 print(num_a, num_b)
@@ -97,5 +97,5 @@ print(myString)
 blah = myString.lower()
 print(blah)
 print(myString[:5])
+print("This is a conflict")
 print(myString[5:])
-print("I think this will conflict")
