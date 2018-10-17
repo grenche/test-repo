@@ -50,7 +50,7 @@ elif age < 100:
 
     
 print()
-print('Quesiton Five')  
+print('Quesiton 5')  
     
 a = 3
 while a > 0:
@@ -75,7 +75,6 @@ for i in range(1, my_range + 1):
     else:
         print(i)
 print(num_a, num_b)
-print("Not a conflict")
 
 
 
