@@ -46,11 +46,10 @@ elif age > 50:
 if fave_fruit != 'apple':
     print(fave_color)
 else:
-    print('This does conflict')
 
     
 print()
-print('Quesiton Five')  
+print('Quesiton 5')  
     
 a = 3
 while a > 0:
@@ -75,6 +74,7 @@ for i in range(1, my_range + 1):
     else:
         print(i)
 print(num_a, num_b)
+print("Non-conflicting change")
 
 
 
@@ -97,5 +97,4 @@ print(myString)
 blah = myString.lower()
 print(blah)
 print(myString[:5])
-print("This is a conflict")
 print(myString[5:])
