@@ -12,6 +12,7 @@ for i in range(4):
 
 y = -50
 print(y % z)
+print(w)
 
 
 
@@ -49,7 +50,7 @@ elif age < 100:
 
     
 print()
-print('Quesiton 5')  
+print('Quesiton Five')  
     
 a = 3
 while a > 0:
@@ -74,6 +75,7 @@ for i in range(1, my_range + 1):
     else:
         print(i)
 print(num_a, num_b)
+print("Not a conflict")
 
 
 
